@@ -1,12 +1,9 @@
 import coverIcon from '../../assets/icons/undraw-upload-re-pasx_2023-03-09/icon1.png';
 import React from 'react';
-import './registration.css';
+import './login.css';
 import { useFormik } from 'formik';
 import { UserSchema } from '../../schemas';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
-
-// import login from '../Login'
 
 const Form = () => {
   const initialValues = {
@@ -44,7 +41,7 @@ const Form = () => {
 
       <div className='app-form-container'>
 
-        <h1>CREATE YOUR CMS+ ACCOUNT</h1>
+        <h1>Login to your CMS+ Account</h1>
         <form action='' className='form--container' onSubmit={handleSubmit}>
         
           <input autoComplete='off' type='email' name='email' placeholder='Enter your email' value={values.email} onChange={handleChange} onBlur={handleBlur}/>
@@ -54,11 +51,8 @@ const Form = () => {
           {errors.password && touched.password ? ( <p className='form--error'>{errors.password}</p> ) : null}
         
           <button type='submit' className='button--container'>
-          Register
+            Login
           </button>
-
-          <Link to='../Login' className='login-link'> <p>Already have an account?</p> </Link>
-          
 
         </form>
 
