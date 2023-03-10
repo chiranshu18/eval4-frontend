@@ -1,77 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-
-/* .register-main-div{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 100%;
-}
-
-.cover-img-div{
-    padding-left: 100px;
-    width: 70vw;
-}
-
-.cover-img{
-    padding-top: 100px;
-    width:90%;
-}
-
-.cover-img-heading{
-    padding-left: 250px;
-    padding-top: 100px;
-    gap: 20px;
-}
-
-.app-form-container {
-  display: flex;
-  width: 30%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 125px;
-  padding-left: 300px;
-  background-color: black;
-}
-
-.form--container{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
-input {
-    width: 350px;
-    margin: 15px;
-    padding: 12px;
-    outline:none;
-}
-
-.button--container{
-    background-color: green;
-    color:white;
-    margin: 15px;
-    padding: 12px;
-    border:none;
-    transition: all 0.2s;
-}
-
-.button--container:hover{
-    border: 1px solid green;
-    background-color:white;
-    margin: 15px;
-    padding: 12px;
-    color:green;
-    cursor: pointer;
-}
-
-.form--error{
-    color: red;
-    margin: 3px;
-    margin-left: 15px;
-    font-family: 'Roboto Condensed', sans-serif;
-} */
-
 .register-main-div{
     display: flex;
     width: 100%;
@@ -115,7 +42,6 @@ input {
 }
 
 .cover-img{
-    /* height: 500px; */
     width: 70%;
 }
 
@@ -133,6 +59,7 @@ input {
     padding: 12px;
     border:none;
     transition: all 0.2s;
+    width: 380px;
 }
 
 .button--container:hover{

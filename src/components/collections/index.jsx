@@ -1,6 +1,8 @@
 import React from 'react';
 import './collection.css';
 import searchIcon from '../../assets/icons/search-icons/icon1.png';
+import { Link } from 'react-router-dom';
+// const hello = require('../../pages/typeDetail')
 
 const index = () => {
   return (
@@ -16,11 +18,12 @@ const index = () => {
       </div>
 
       <div className='collection-types'>
-        <button className='collection-type-button'> <h2>company profile</h2> </button>
-        <button className='collection-type-button'> <h2>idv functionals</h2></button>
-        <button className='collection-type-button'> <h2>trials</h2> </button>
-        <button className='collection-type-button'><h2>users</h2></button>
-        <button className='collection-type-button'><h2>+2 more</h2></button>
+        <Link to = '/typeDetail'> <button className='collection-type-button'> <h2>company profile</h2> </button> </Link> 
+        <Link to = '/typeDetail'><button className='collection-type-button'> <h2>idv functionals</h2></button></Link>
+        <Link to = '/typeDetail'><button className='collection-type-button'> <h2>trials</h2> </button></Link>
+        <Link to = '/typeDetail'><button className='collection-type-button'><h2>users</h2></button></Link>
+        <Link to = '/typeDetail'><button className='collection-type-button'><h2>parties</h2></button></Link>
+        <Link to = '/typeDetail'><button className='collection-type-button'><h2>events</h2></button></Link>
       </div>
 
       <div className='content-builder'>

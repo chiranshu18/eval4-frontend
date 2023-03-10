@@ -58,9 +58,7 @@ const Form = () => {
           < input autoComplete='off' type='password' name='password' placeholder='Enter your password' value={values.password} onChange={handleChange} onBlur={handleBlur} />
           {errors.password && touched.password ? ( <p className='form--error'>{errors.password}</p> ) : null}
         
-          <button type='submit' className='button--container'>
-            Login
-          </button>
+          <Link to = '/homepage'> <button type='submit' className='button--container'>Login</button> </Link>
 
         </form>
 
