@@ -1,6 +1,7 @@
 import React from 'react';
 import './contentTypeFields.css';
 import FieldCard from '../fieldCard';
+import FieldNew from '../fieldNew';
 
 const companyTypeFields = () => {
   return (
@@ -18,10 +19,11 @@ const companyTypeFields = () => {
 
       </div>
 
-      <div className='add-new-content-field-card'>
+      {/* <div className='add-new-content-field-card'>
         <p className='add-new-content-field-card-text'>Add Another Field</p>
-      </div>
+      </div> */}
 
+      <FieldNew/>
       <FieldCard/>
       
 

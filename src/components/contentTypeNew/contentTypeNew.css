@@ -1,0 +1,55 @@
+.popup{
+    width: 30%;
+    height: 30%;
+    border: 2px solid whitesmoke;
+    z-index: 99999;
+    background-color: whitesmoke;
+
+    border-radius: 10px;
+
+    position: absolute;
+    top: 30%;
+    left: 45%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    
+}
+
+.input-content-type{
+    width: 90%;
+}
+
+.create-button{
+    width: 40%;
+    height: 70px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.cancel-button{
+    width: 40%;
+    height: 70px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}

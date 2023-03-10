@@ -1,6 +1,7 @@
 import React from 'react';
 import './contentType.css';
 import ContentTypeCard from '../contentTypeCard';
+import ContentTypeNew from '../contentTypeNew';
 
 import { GET_ALL_CONTENT_TYPE } from '../../constants/apiEndPoints';
 import makeRequest from '../../utils/makeRequest';
@@ -14,7 +15,6 @@ const contentTypes = () => {
     makeRequest(GET_ALL_CONTENT_TYPE)
       .then((response) => {
         setContentType(response.result);
-        // setContentType(response.result.fields);
       })
       .catch((e) => {
         setError(e.message);
@@ -30,19 +30,25 @@ const contentTypes = () => {
     );
   };
 
+  const getInfo = () => {
+    console.log('clicked');
+  };
 
 
   return contentType ? (
 
     <div className='content-types'>
 
-      <div className='add-new-content-type-card'>
+      {/* <div className='add-new-content-type-card'>
         <p className='add-new-content-type-card-text'>New Types+</p>
-      </div>
+      </div> */}
+
+      <ContentTypeNew/>
+
       
       {
         contentType.map((item) => { 
-          return ( <ContentTypeCard key={item.id} name={item.name} /> ); 
+          return ( <ContentTypeCard key={item.id} name={item.name} handleClick = {getInfo}/> ); 
         })
       }
 
