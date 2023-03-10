@@ -1,7 +1,7 @@
 import React from 'react';
 import './content.css';
 import ContentTypes from '../../components/contentTypes';
-import ContentTypeFields from '../companyTypeFields';
+import ContentTypeFields from '../contentTypeFields';
 
 const content = () => {
   return (

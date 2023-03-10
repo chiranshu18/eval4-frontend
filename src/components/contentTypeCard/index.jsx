@@ -1,45 +1,14 @@
 import React from 'react';
 import './contentTypeCard.css';
 
-const index = () => {
+const index = ({name, fields}) => {
   return (
     <>
-
+      
       <div className='content-type-card'>
-        <p className='add-new-content-type-card-text'>Company_profiles</p>
-        <p className='add-new-content-type-card-text'>13</p>
+        <p className='add-new-content-type-card-text'>{name}</p>
+        <p className='add-new-content-type-card-text'></p>
       </div>
-
-      <div className='content-type-card'>
-        <p className='add-new-content-type-card-text'>Company_profiles</p>
-        <p className='add-new-content-type-card-text'>13</p>
-      </div>
-
-      <div className='content-type-card'>
-        <p className='add-new-content-type-card-text'>Company_profiles</p>
-        <p className='add-new-content-type-card-text'>13</p>
-      </div>
-
-      <div className='content-type-card'>
-        <p className='add-new-content-type-card-text'>Company_profiles</p>
-        <p className='add-new-content-type-card-text'>13</p>
-      </div>
-
-      <div className='content-type-card'>
-        <p className='add-new-content-type-card-text'>Company_profiles</p>
-        <p className='add-new-content-type-card-text'>13</p>
-      </div>
-
-      <div className='content-type-card'>
-        <p className='add-new-content-type-card-text'>Company_profiles</p>
-        <p className='add-new-content-type-card-text'>13</p>
-      </div>
-
-      <div className='content-type-card'>
-        <p className='add-new-content-type-card-text'>Company_profiles</p>
-        <p className='add-new-content-type-card-text'>13</p>
-      </div>
-
     </>  
     
     

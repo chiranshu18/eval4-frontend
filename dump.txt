@@ -31,3 +31,38 @@
   //     <p>Loading...</p>
   //   </div>
   // );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    React.useEffect(() => {
+    axios
+      .get('http://localhost:5050/content-type/')
+      .then((res) => {
+        console.log(res);
+        setContentType(res.result);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
+
+  console.log('content type',contentType);

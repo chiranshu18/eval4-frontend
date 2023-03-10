@@ -1,0 +1,44 @@
+.contenet-type-fields{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: rgb(229, 229, 234);
+    width: 57.5vw;
+    height: 94.2vh;
+    padding-left: 20px;
+}
+
+.field-description{
+    padding-bottom: 20px;
+}
+
+.content-type-field-title{
+    color: rgb(56, 54, 54);
+}
+
+.content-type-field-subtitle{
+    color: rgb(109, 106, 106);
+}
+
+
+.add-new-content-field-card{
+    width: 98%;
+    background-color: white;
+    border-radius:10px;
+    border: 1px blue dashed;
+}
+
+.add-new-content-field-card:hover{
+    background-color: rgb(87, 52, 151);
+}
+
+.add-new-content-field-card-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+
+}
