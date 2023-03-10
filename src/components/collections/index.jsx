@@ -2,7 +2,6 @@ import React from 'react';
 import './collection.css';
 import searchIcon from '../../assets/icons/search-icons/icon1.png';
 import { Link } from 'react-router-dom';
-// const hello = require('../../pages/typeDetail')
 
 const index = () => {
   return (
