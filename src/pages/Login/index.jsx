@@ -4,30 +4,38 @@ import './login.css';
 import { useFormik } from 'formik';
 import { UserSchema } from '../../schemas';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 const Form = () => {
+  const navigate = useNavigate();
+  const [tokn, setToken] = useState('');
+
   const initialValues = {
     email: '',
     password: '',
   };
+
+  const onSubmit = async (values, action) => {
+    const res = await axios({
+      method: 'POST',
+      url: 'http://localhost:4000/register',
+      data: values,
+    });
+    action.resetForm();
+    setToken(res.data);
+    navigate('/login');
+  }; 
 
   const { values, errors, handleChange, handleBlur, touched, handleSubmit } =
 
     useFormik({
       initialValues: initialValues,
       validationSchema: UserSchema,
-      onSubmit: (values) => {
-        // console.log(values);
-        axios({
-          method: 'POST',
-          url: 'http://localhost:4000/register',
-          data: values,
-          // headers: { 'Content-Type': 'multipart/form-data' },
-        });
-      },
+      onSubmit,
     });
 
-  console.log(errors);
 
   return (
 

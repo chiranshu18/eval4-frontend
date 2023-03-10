@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import './fieldNew.css';
 
 const FieldNew = () => {
 
@@ -22,15 +23,25 @@ const FieldNew = () => {
     };
 
     return (
-      <div className="popup">
-        <h1>type...</h1>
+      <div className="popup2">
+        <h1>Add Enteries</h1>
         <form >
-          <input className='input-content-type' type="text" value={inputValue} onChange={handleInputChange} />
+          <input className='input-content-type2' type="text" value={inputValue} onChange={handleInputChange} />
+          <input className='input-content-type2' type="text" value={inputValue} onChange={handleInputChange} />
+          <input className='input-content-type2' type="text" value={inputValue} onChange={handleInputChange} />
+          <input className='input-content-type2' type="text" value={inputValue} onChange={handleInputChange} />
+          <input className='input-content-type2' type="text" value={inputValue} onChange={handleInputChange} />
+          <input className='input-content-type2' type="text" value={inputValue} onChange={handleInputChange} />
+          <input className='input-content-type2' type="text" value={inputValue} onChange={handleInputChange} />
+          <input className='input-content-type2' type="text" value={inputValue} onChange={handleInputChange} />
+          <input className='input-content-type2' type="text" value={inputValue} onChange={handleInputChange} />
+          <input className='input-content-type2' type="text" value={inputValue} onChange={handleInputChange} />
+          <input className='input-content-type2' type="text" value={inputValue} onChange={handleInputChange} />
           
         </form>
-        <div className='buttons'>
-          <button className='create-button' type="submit" onSubmit={handleSubmit}>create</button>
-          <button className='cancel-button' type="submit" onSubmit={handleSubmit}>cancel</button>
+        <div className='buttons2'>
+          <button className='create-button2' type="submit" onSubmit={handleSubmit}>create</button>
+          <button className='cancel-button2' type="submit" onSubmit={handleSubmit}>cancel</button>
         </div>
       </div>
     );

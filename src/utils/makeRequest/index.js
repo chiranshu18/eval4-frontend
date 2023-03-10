@@ -7,7 +7,7 @@ const makeRequest = async (apiEndPoint, dynamicConfig = {}, ) => {
     url: apiEndPoint.url,
     method: apiEndPoint.method,
     headers: {
-      authorization: 'Bearer ' + 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJkYWxlQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJhJDEwJDVwYVpjaGNMbEZla0lTdm9pcThkNi5FdGxjSlJuZk9INjhaQ1k1YVdqMGRUa2xXMVI0MFFtIiwiY3JlYXRlZEF0IjoiMjAyMy0wMy0wOVQxNjozMjo0OS4xNDJaIiwidXBkYXRlZEF0IjoiMjAyMy0wMy0wOVQxNjozMjo0OS4xNDJaIiwiaWF0IjoxNjc4NDExODAxfQ.pA_9kgtFaO68J1bNOml0nyLAuWFQge5N-hpV5moLVe0'
+      authorization: 'Bearer ' + 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJja0BnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQxMCQza3pRMWF2T0ZNOC5vOTdHeTF4NG0uYjJabmRxZDUvVm1RbE53bjhQWEJtVFZDU1drSE4xMiIsImNyZWF0ZWRBdCI6IjIwMjMtMDMtMTBUMTI6MDE6MTUuMzUzWiIsInVwZGF0ZWRBdCI6IjIwMjMtMDMtMTBUMTI6MDE6MTUuMzUzWiIsImlhdCI6MTY3ODQ0OTgzNX0.brah4r9AjUdUu1udfXKPsq1mJVhwqBl3Mag7lrq8yqI'
     },
     ...dynamicConfig
   };
