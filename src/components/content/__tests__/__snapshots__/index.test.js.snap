@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content Should render correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="content-heading"
+    >
+      <h1>
+        Content Types
+      </h1>
+    </div>
+    <div
+      class="data"
+    >
+      <div
+        class="content-types"
+      >
+        <div
+          class="add-new-content-type-card"
+        >
+          <p
+            class="add-new-content-type-card-text"
+          >
+            New Types+
+          </p>
+        </div>
+      </div>
+      <div
+        class="contenet-type-fields"
+      >
+        <div
+          class="field-description"
+        >
+          <div
+            class="content-type-field-title"
+          >
+            <h1>
+              Company_Profiles
+            </h1>
+          </div>
+          <div
+            class="content-type-field-subtitle"
+          >
+            <h2>
+              13 Fields
+            </h2>
+          </div>
+        </div>
+        <div
+          class="add-new-content-field-card"
+        >
+          <p
+            class="add-new-content-field-card-text"
+          >
+            Add Another Field
+          </p>
+        </div>
+        <div
+          class="field-card"
+        >
+          <div
+            class="field-car-logo"
+          >
+            <h2>
+              Ab
+            </h2>
+          </div>
+          <div
+            class="field-card-name"
+          >
+            <h2>
+              NAME
+            </h2>
+          </div>
+          <div
+            class="field-card-data-type"
+          >
+            <h2>
+              Text
+            </h2>
+          </div>
+          <div
+            class="edit-field"
+          >
+            <img
+              alt=""
+              src="icons2.png"
+            />
+          </div>
+          <div
+            class="delete-field"
+          >
+            <img
+              alt=""
+              src="icon2.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`footer Should render correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="content-heading"
+    >
+      <h1>
+        Content Types
+      </h1>
+    </div>
+    <div
+      class="data"
+    >
+      <div
+        class="content-types"
+      >
+        <div
+          class="add-new-content-type-card"
+        >
+          <p
+            class="add-new-content-type-card-text"
+          >
+            New Types+
+          </p>
+        </div>
+      </div>
+      <div
+        class="contenet-type-fields"
+      >
+        <div
+          class="field-description"
+        >
+          <div
+            class="content-type-field-title"
+          >
+            <h1>
+              Company_Profiles
+            </h1>
+          </div>
+          <div
+            class="content-type-field-subtitle"
+          >
+            <h2>
+              13 Fields
+            </h2>
+          </div>
+        </div>
+        <div
+          class="add-new-content-field-card"
+        >
+          <p
+            class="add-new-content-field-card-text"
+          >
+            Add Another Field
+          </p>
+        </div>
+        <div
+          class="field-card"
+        >
+          <div
+            class="field-car-logo"
+          >
+            <h2>
+              Ab
+            </h2>
+          </div>
+          <div
+            class="field-card-name"
+          >
+            <h2>
+              NAME
+            </h2>
+          </div>
+          <div
+            class="field-card-data-type"
+          >
+            <h2>
+              Text
+            </h2>
+          </div>
+          <div
+            class="edit-field"
+          >
+            <img
+              alt=""
+              src="icons2.png"
+            />
+          </div>
+          <div
+            class="delete-field"
+          >
+            <img
+              alt=""
+              src="icon2.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

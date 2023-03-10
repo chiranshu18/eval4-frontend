@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Field Card Should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="field-card"
+  >
+    <div
+      class="field-car-logo"
+    >
+      <h2>
+        Ab
+      </h2>
+    </div>
+    <div
+      class="field-card-name"
+    >
+      <h2>
+        NAME
+      </h2>
+    </div>
+    <div
+      class="field-card-data-type"
+    >
+      <h2>
+        Text
+      </h2>
+    </div>
+    <div
+      class="edit-field"
+    >
+      <img
+        alt=""
+        src="icons2.png"
+      />
+    </div>
+    <div
+      class="delete-field"
+    >
+      <img
+        alt=""
+        src="icon2.png"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

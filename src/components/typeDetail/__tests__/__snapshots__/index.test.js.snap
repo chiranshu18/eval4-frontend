@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Field New Should render correctly 1`] = `
+<DocumentFragment>
+  <div>
+    show event details.
+  </div>
+</DocumentFragment>
+`;

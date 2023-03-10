@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Field New Should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="add-new-content-field-card"
+  >
+    <p
+      class="add-new-content-field-card-text"
+    >
+      Add Another Field
+    </p>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content Types Card Should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="content-type-card"
+  >
+    <p
+      class="add-new-content-type-card-text"
+    />
+    <p
+      class="add-new-content-type-card-text"
+    />
+  </div>
+</DocumentFragment>
+`;
