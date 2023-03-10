@@ -1,0 +1,9 @@
+.entry-type-heading{
+    /* background-color: red; */
+    width: 80vw;
+    padding-left: 60px;
+    padding-top: px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}

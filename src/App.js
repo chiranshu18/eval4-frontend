@@ -4,6 +4,7 @@ import Login from './pages/Login';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
+import TypeDetail from './pages/typeDetailPage';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/" element={<Registration />} />
           <Route path="/login" element={<Login />} />
           <Route path="/homepage" element={<HomePage />} />
+          <Route path="/typeDetail" element={<TypeDetail />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
