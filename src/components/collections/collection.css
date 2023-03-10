@@ -1,0 +1,53 @@
+.collections{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 20%;
+    color: whitesmoke;
+    background-color: rgb(39, 39, 40);
+}
+
+.cms-heading{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    background-color: rgb(76, 37, 150);
+}
+
+.collection-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+}
+
+.collection-types{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.collection-type-button{
+    cursor: pointer;
+    height: 60px;
+    width: 40%;
+    gap: 30px;
+    border: 0px solid rgb(40, 39, 39);
+    background-color: rgb(40, 39, 39);
+    color: rgb(175, 173, 173);
+}
+
+.content-builder{
+    background-color: black;
+    margin-top: 50px;
+    padding-left: 60px;
+}

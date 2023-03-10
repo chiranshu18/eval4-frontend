@@ -1,0 +1,33 @@
+// import { GET_ALL_CONTENT_TYPE } from '../../constants/apiEndPoints';
+// import makeRequest from '../../utils/makeRequest';
+
+  // const [contentType, setContentType] = React.useState();
+  // const [error, setError] = React.useState();
+
+  // React.useEffect(() => {
+  //   makeRequest(GET_ALL_CONTENT_TYPE)
+  //     .then((response) => {
+  //       console.log('123');
+  //       console.log('response: ', response);
+  //       setContentType(response.result);
+  //     })
+  //     .catch((e) => {
+  //       setError(e.message);
+  //     });
+  // }, []);
+
+  // if(error){
+  //   return (
+  //     <div >
+  //       <p>{error}</p>
+  //     </div>
+  //   );
+  // };
+
+  // console.log('content type',contentType);
+
+// : (
+  //   <div>
+  //     <p>Loading...</p>
+  //   </div>
+  // );

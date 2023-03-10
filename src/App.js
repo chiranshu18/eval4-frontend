@@ -3,6 +3,7 @@ import Registration from './pages/Registration';
 import Login from './pages/Login';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
 
 const App = () => {
   return (
@@ -10,8 +11,9 @@ const App = () => {
       
       <BrowserRouter>
         <Routes>
-          <Route path="/registration" element={<Registration />} />
+          <Route path="/" element={<Registration />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/homepage" element={<HomePage />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>

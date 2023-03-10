@@ -1,0 +1,14 @@
+.content-heading{
+    background-color: red;
+    width: 80vw;
+    padding-left: 60px;
+    padding-top: px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+}

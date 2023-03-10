@@ -1,0 +1,38 @@
+.content-types{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(213, 213, 231);
+    height: 94.2vh;
+    width: 25vw;
+}
+
+.add-new-content-type-card{
+    width: 75%;
+    background-color: white;
+    border-radius: 7px;
+    height: 6vh;
+    margin: 50px;
+    border: 1px blue dashed;
+}
+
+.add-new-content-type-card:hover{
+    background-color: rgb(87, 52, 151);
+}
+
+.add-new-content-type-card-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+/* .content-type-card-container{
+    gap: 20px;
+    padding-bottom: 10px;
+
+} */
